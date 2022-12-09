@@ -11,3 +11,4 @@ However, I did learn A LOT from doing this, and will be documenting my notes her
 - CSS can be nested like HTML can
 - target=" _blank" Attribute: specifies that this link will open a new browser tab when clicked
 - rel attribute- defines the relationship between the linked resource and the current document (can include the author, links to contextual help, or in this case roreferrer, which hides referrer information when the link is clicked)
+- putting &::before or after inside of a css bracket will add styling before or after the element styled.

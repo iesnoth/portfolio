@@ -8,9 +8,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/" element={<Layout />} >
         {/* index element passes App with Home rendered as a child */}
         <Route index element={<Home/>}/>
+        </Route>
       </Routes>
     </>
   );
