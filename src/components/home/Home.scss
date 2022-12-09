@@ -3,27 +3,26 @@
     .text-zone{
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 60%;
         transform: translateY(-50%);
-        width:40%;
+        width:41%;
         max-height: 90%;
     }
 
     h1{
         color: white;
-        font-size:53px;
+        font-size:45px;
         margin: 0;
         font-family:'Coolvetica';
         font-weight: 400;
-
-        img{
-            width:32px;
-            margin-left: 20px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-        }
+    }
+    .my-name{
+        color:#F19641;
+        font-size:70px;
+    }
+    .pronunciation{
+        font-family:'La Belle Aurore';
+        font-size: 30px;
     }
 }
 h2{
@@ -37,21 +36,22 @@ h2{
 }
 
 .flat-button{
-    color:#ffd700;
+    color:#F19641;
     font-size:13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #F19641;
     margin-top: 25px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+    border-radius: 15px;
 
     &:hover{
-        background:#ffd700;
+        background:#F19641;
         color:#333;
     }
 }
