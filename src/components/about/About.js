@@ -8,8 +8,8 @@ import {
     faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { faPenNib,faPalette } from '@fortawesome/free-solid-svg-icons';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Loader from 'react-loaders';
 
 
 
@@ -28,6 +28,7 @@ const About = () => {
     }, [])
 
     return (
+        <>
         <div className="container about-page">
             <div className="text-zone">
                 <h1>
@@ -65,6 +66,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader type="ball-scale-multiple"/>
+        </>
     )
 }
 

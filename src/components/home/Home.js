@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Home.scss';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../animatedLetters/Animated'
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -20,6 +21,7 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1 className='my-name'>
@@ -35,6 +37,8 @@ const Home = () => {
                 <Link to="/contact" className='flat-button'>SEND YOUR INQUIRIES</Link>
             </div>
         </div>
+        <Loader type="ball-scale-multiple"/>
+        </>
     );
 }
 
