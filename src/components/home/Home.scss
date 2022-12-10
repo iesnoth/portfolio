@@ -36,6 +36,7 @@ h2{
 }
 
 .flat-button{
+    position: absolute;
     color:#F19641;
     font-size:13px;
     font-weight: 400;
@@ -44,11 +45,15 @@ h2{
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid #F19641;
-    margin-top: 25px;
-    float: left;
+    float: center;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
     border-radius: 15px;
+    margin:5px;
+
+    &:first-child{
+        position:relative;
+    }
 
     &:hover{
         background:#F19641;
