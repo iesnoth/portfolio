@@ -27,6 +27,7 @@ const Home = () => {
                 <h1 className='my-name'>
                     <AnimatedLetters letterClass={letterClass}
                         strArray={nameArray}
+                        // 15 here means 1.5s delay in animation
                         idx={15} />
                 </h1>
                 <h2 className='pronunciation'> pronounced: ee-es-nuth</h2>

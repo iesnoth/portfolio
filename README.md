@@ -1,11 +1,5 @@
 # My Art Portfolio
 
-Color Palette:
-#F19641
-#150B2C
-#5B586C
-#272449
-
 ## Disclaimer:
 I used this tutorial for the bulk of the coding, then gutted it for my own purposes. I do not claim to have come up with all this on my lonesome.
 However, I did learn A LOT from doing this, and will be documenting my notes here and throughout the code, where appropriate.
@@ -21,3 +15,14 @@ However, I did learn A LOT from doing this, and will be documenting my notes her
 
 12/09/2022
 - I was getting an error that the useEffect hook should only return a function for cleaning, so I had to alter the code. I fixed the bug based on this article: https://isotropic.co/how-to-fix-the-useeffect-must-not-return-anything-besides-a-function-warning/
+- almost all of the animation stuff I didn't know. I'll go through some later date and take notes on everything.
+
+
+### Notes to self
+- Add a .env file for the tokens
+
+- Color Palette:
+#F19641
+#150B2C
+#5B586C
+#272449
