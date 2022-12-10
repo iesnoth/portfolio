@@ -9,12 +9,15 @@ const Home = () => {
     const jobArray = ['c', 'r', 'e', 'a', 't', 'o', 'r', ' ', 'e', 'x', 't', 'r', 'a', 'o', 'r', 'd', 'i', 'n', 'a', 'i', 'r', 'e']
 
     //runs hover effect after 4 seconds, only runs once
-    //malfunctioning, figure out later
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 4000)
-    // }, [])
+    useEffect(() => {
+        const setClass = async () => {
+            return setTimeout(() => {
+                setLetterClass('text-animate-hover')
+            }, 5000)
+        };
+
+        setClass()
+    }, [])
 
     return (
         <div className="container home-page">
