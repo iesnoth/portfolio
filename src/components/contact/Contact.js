@@ -27,7 +27,7 @@ const Contact = () => {
                 'gmail',
                 'template_zgvn0qz',
                 refForm.current,
-                'JxUmckiwkd9yYyJxQohPA'
+                'TOKEN'
             )
             .then(
                 () => {

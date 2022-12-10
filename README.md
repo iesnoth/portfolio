@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=bmpI252DmiI&t=3340s
  for the bulk of the coding, then gutted it for my own purposes. I do not claim to have come up with all this on my lonesome.
 However, I did learn A LOT from doing this, and will be documenting my notes here and throughout the code, where appropriate.
 
+PORTFOLIO IS STILL UNFINISHED. I can't figure out how to get it to work with the ArtPieces.js array. It feels like it should be a simple answer, but I'm too stressed to figure it out right now.
+
 
 ## What I learned:
 12/08/2022
