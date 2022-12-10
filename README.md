@@ -26,3 +26,8 @@ However, I did learn A LOT from doing this, and will be documenting my notes her
 #150B2C
 #5B586C
 #272449
+
+- To do:
+fill out text
+change cube images to artwork
+add portfolio
